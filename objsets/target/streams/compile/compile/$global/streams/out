@@ -1,0 +1,12 @@
+[0m[[0m[31merror[0m] [0m[0m/home/kubo/Downloads/objsets/src/main/scala/objsets/TweetSet.scala:120:40: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : objsets.Empty[0m
+[0m[[0m[31merror[0m] [0m[0m required: objsets.TweetList[0m
+[0m[[0m[31merror[0m] [0m[0m  def descendingByRetweet: TweetList = this[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kubo/Downloads/objsets/src/main/scala/objsets/TweetSet.scala:154:13: not found: value biggestModule[0m
+[0m[[0m[31merror[0m] [0m[0m    val x = biggestModule[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kubo/Downloads/objsets/src/main/scala/objsets/TweetSet.scala:155:27: value biggestModule is not a member of objsets.TweetSet[0m
+[0m[[0m[31merror[0m] [0m[0m    new Cons(x, remove(x).biggestModule)[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

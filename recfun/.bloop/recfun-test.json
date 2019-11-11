@@ -1,0 +1,260 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "recfun-test",
+        "directory" : "/home/kubo/Downloads/recfun",
+        "sources" : [
+            "/home/kubo/Downloads/recfun/src/test/scala-2.13",
+            "/home/kubo/Downloads/recfun/src/test/scala",
+            "/home/kubo/Downloads/recfun/src/test/java",
+            "/home/kubo/Downloads/recfun/target/scala-2.13/src_managed/test"
+        ],
+        "dependencies" : [
+            "recfun"
+        ],
+        "classpath" : [
+            "/home/kubo/Downloads/recfun/.bloop/recfun/scala-2.13/classes",
+            "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+            "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar",
+            "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar",
+            "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar"
+        ],
+        "out" : "/home/kubo/Downloads/recfun/.bloop/recfun",
+        "classesDir" : "/home/kubo/Downloads/recfun/.bloop/recfun/scala-2.13/test-classes",
+        "resources" : [
+            "/home/kubo/Downloads/recfun/src/test/resources",
+            "/home/kubo/Downloads/recfun/target/scala-2.13/resource_managed/test"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.13.0",
+            "options" : [
+                "-language:implicitConversions",
+                "-deprecation",
+                "-P:semanticdb:synthetics:on",
+                "-P:semanticdb:failures:warning",
+                "-P:semanticdb:sourceroot:/home/kubo/Downloads/recfun",
+                "-Yrangepos",
+                "-Xplugin-require:semanticdb",
+                "-Xplugin:/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.0/4.2.3/semanticdb-scalac_2.13.0-4.2.3.jar"
+            ],
+            "jars" : [
+                "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.0/scala-reflect-2.13.0.jar",
+                "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar",
+                "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar",
+                "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar",
+                "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.0/scala-compiler-2.13.0.jar",
+                "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                    {
+                        "args" : [
+                            "-a",
+                            "-v",
+                            "-s"
+                        ],
+                        "framework" : {
+                            "names" : [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/usr/lib/jvm/java-11-openjdk-amd64",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.13.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-sources.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "javadoc",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.hamcrest",
+                    "name" : "hamcrest-core",
+                    "version" : "1.3",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "hamcrest-core",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"
+                        },
+                        {
+                            "name" : "hamcrest-core",
+                            "classifier" : "sources",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"
+                        },
+                        {
+                            "name" : "hamcrest-core",
+                            "classifier" : "javadoc",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "junit",
+                    "name" : "junit",
+                    "version" : "4.11",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "junit",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11.jar"
+                        },
+                        {
+                            "name" : "junit",
+                            "classifier" : "sources",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11-sources.jar"
+                        },
+                        {
+                            "name" : "junit",
+                            "classifier" : "javadoc",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/junit/junit/4.11/junit-4.11-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-sbt",
+                    "name" : "test-interface",
+                    "version" : "1.0",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "test-interface",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name" : "test-interface",
+                            "classifier" : "sources",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        },
+                        {
+                            "name" : "test-interface",
+                            "classifier" : "javadoc",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "com.novocode",
+                    "name" : "junit-interface",
+                    "version" : "0.11",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "junit-interface",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar"
+                        },
+                        {
+                            "name" : "junit-interface",
+                            "classifier" : "sources",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar"
+                        },
+                        {
+                            "name" : "junit-interface",
+                            "classifier" : "javadoc",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.13.0",
+                    "configurations" : "optional",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-sources.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "javadoc",
+                            "path" : "/home/kubo/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0-javadoc.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

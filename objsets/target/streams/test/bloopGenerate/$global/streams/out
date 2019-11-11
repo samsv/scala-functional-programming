@@ -1,0 +1,4 @@
+[debug] [objsets-test] Classpath dependencies List()
+[debug] [objsets-test] Dependencies from configurations List(objsets)
+[debug] Bloop wrote the configuration of project 'objsets-test' to '/home/kubo/Downloads/objsets/.bloop/objsets-test.json'
+[success] Generated .bloop/objsets-test.json
