@@ -4,7 +4,7 @@
 		module="forcomp-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20191024233919"
+		publication="20191115144202"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
